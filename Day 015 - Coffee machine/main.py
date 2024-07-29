@@ -81,7 +81,7 @@ while is_on:
         print(f"Milk: {resources['milk']}ml")
         print(f"Coffee: {resources['coffee']}g")
         print(f"Money: ${profit}")
-    elif choice == "espresso" or choice == "latte" or choice == "cappuccino":
+    elif choice in ["espresso", "latte", "cappuccino"]:
         drink = MENU[choice]
         if is_resource_sufficient(drink["ingredients"]):
             payment = process_coins()
