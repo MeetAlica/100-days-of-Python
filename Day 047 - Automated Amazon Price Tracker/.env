@@ -1,0 +1,3 @@
+SMTP_ADDRESS="smtp.gmail.com"
+EMAIL_ADDRESS="your_email@email.com"
+EMAIL_PASSWORD="your app password"
