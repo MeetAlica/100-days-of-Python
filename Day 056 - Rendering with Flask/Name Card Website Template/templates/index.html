@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Welcome on my page!</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="static/assets/css/main.css" />
+  </head>
+  <body class="is-loading">
+    <!-- Wrapper -->
+    <div id="wrapper">
+      <!-- Main -->
+      <section id="main">
+        <header>
+          <span class="avatar"
+            ><img src="static/images/avatar.jpg" alt=""
+          /></span>
+          <h1>Ali Fehér</h1>
+          <p>Junior Python Developer</p>
+        </header>
+        <footer>
+          <ul class="icons">
+            <li>
+              <a href="https://x.com/ali_feher" class="fa-twitter">Twitter</a>
+            </li>
+            <li>
+              <a
+                href="https://www.instagram.com/metali96/#"
+                class="fa-instagram"
+                >Instagram</a
+              >
+            </li>
+            <li>
+              <a href="https://www.facebook.com/FeherAli" class="fa-facebook"
+                >Facebook</a
+              >
+            </li>
+          </ul>
+        </footer>
+      </section>
+
+      <!-- Footer -->
+      <footer id="footer">
+        <ul class="copyright">
+          <li>&copy; Ali Fehér</li>
+          <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+        </ul>
+      </footer>
+    </div>
+
+    <script>
+      if ("addEventListener" in window) {
+        window.addEventListener("load", function () {
+          document.body.className = document.body.className.replace(
+            /\bis-loading\b/,
+            ""
+          );
+        });
+        document.body.className += navigator.userAgent.match(/(MSIE|rv:11\.0)/)
+          ? " is-ie"
+          : "";
+      }
+    </script>
+  </body>
+</html>
